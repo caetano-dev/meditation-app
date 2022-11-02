@@ -1,30 +1,33 @@
-import './App.css'
-import Welcome from './components/welcome'
-import SessionBox from './components/sessionBox'
-import natureIcon from './assets/natureIcon.png'
-import wind from './assets/wind.png'
+import Header from "./components/header";
+import Card from "./components/card";
+
+import nature from "./assets/nature.jpg";
+import dandelion from "./assets/dandelion.jpg";
 
 function App() {
-
   return (
-    <div className="App bg-gradient-to-b from-green-700 to-green-700 w-screen h-screen border-2">
-      <div className="w-screen border-2 flex justify-center">
-        <Welcome />
-      </div>
-      <div className>
-        <SessionBox
-          title="Sounds"
-          image="bg-[url('./assets/natureIcon.png')] bg-center w-2/4 h-2/4"
-          description="Listen to relaxing sounds"
+      <>
+      <Header />
+
+      <main className="flex flex-wrap items-center justify-center h-screen">
+        <Card
+          image={nature}
+          title="Nature sounds 🌲"
+          description="Meditate and calm your mind with this collection of sounds from nature."
         />
-        <SessionBox
-          title="Deep breath"
-          image="bg-[url('./assets/wind.png')]"
-          description="Calm yourself with a deep breath"
+        <Card
+          image={dandelion}
+          title="Deep breath 💨"
+          description="Calm yourself by following this relaxing assisted breath."
         />
-      </div>
-    </div>
+      </main>
+      </>
+ 
   );
 }
 
-export default App
+// https://v1.tailwindcss.com/components/cards
+// https://xhalr.com/
+// https://www.calm.com/breathe
+
+export default App;
