@@ -1,10 +1,9 @@
 import React from 'react'
 
-function SessionBox({title, description}) {
+function SessionBox({title, image, description}) {
   return (
-    <div className="border-2">
-        <h3>{title}</h3>
-        <p>image here</p>
+    <div className={image}>
+        <h3 className="text-3xl">{title}</h3>
         <p>{description}</p>
     </div>
   )
