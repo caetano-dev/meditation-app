@@ -2,14 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import {
   createBrowserRouter,
-  RouterProvider,
-  Route,
+  RouterProvider
 } from "react-router-dom";
-import "./index.css";
+
 import { Root } from "./routes/root";
-import { ErrorPage } from "./error-page";
+import { ErrorPage } from "./pages/error-page";
 import { Home } from "./pages/home";
 import { Sounds } from "./pages/sounds";
+
+import "./index.css";
 
 const router = createBrowserRouter([
   {
