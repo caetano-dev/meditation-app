@@ -1,14 +1,14 @@
 import React from "react";
 import Button from "./button";
 
-function Card({ image, title, description }) {
+function Card({ image, alt, title, description, linkTo}) {
   return (
     <div className="max-w-sm m-5 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
         <img
           className="rounded-t-lg w-full h-48 object-cover"
           src={image}
-          alt=""
+          alt={alt}
         />
       </a>
       <div className="p-5">
@@ -20,7 +20,9 @@ function Card({ image, title, description }) {
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
           {description}
         </p>
-        <Button text="Start session"/>
+        <a href={linkTo}>
+          <Button text="Start session" />
+        </a>
       </div>
     </div>
   );
