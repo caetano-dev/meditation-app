@@ -24,4 +24,4 @@ function Button({ text }) {
   );
 }
 
-export default Button;
+export { Button };

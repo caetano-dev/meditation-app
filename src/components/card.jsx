@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "./button";
+import { Button } from "./button";
 
-function Card({ image, alt, title, description, linkTo}) {
+function Card({ image, alt, title, description, linkTo }) {
   return (
     <div className="max-w-sm m-5 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
@@ -28,4 +28,4 @@ function Card({ image, alt, title, description, linkTo}) {
   );
 }
 
-export default Card;
+export { Card };

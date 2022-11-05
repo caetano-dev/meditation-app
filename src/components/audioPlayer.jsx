@@ -11,4 +11,4 @@ function AudioPlayer({ name, description, style }) {
   );
 }
 
-export default AudioPlayer
+export { AudioPlayer }

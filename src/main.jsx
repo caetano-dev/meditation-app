@@ -6,24 +6,24 @@ import {
   Route,
 } from "react-router-dom";
 import "./index.css";
-import Root from "./routes/root";
-import ErrorPage from "./error-page";
-import Home from "./pages/home";
-import Sounds from "./pages/sounds";
+import { Root } from "./routes/root";
+import { ErrorPage } from "./error-page";
+import { Home } from "./pages/home";
+import { Sounds } from "./pages/sounds";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root/>,
-    errorElement: <ErrorPage/>,
+    element: <Root />,
+    errorElement: <ErrorPage />,
     children: [
       {
-        path:"/",
-        element: <Home/>,
+        path: "/",
+        element: <Home />,
       },
       {
-        path:"sounds",
-        element: <Sounds/>,
+        path: "sounds",
+        element: <Sounds />,
       },
     ],
   },

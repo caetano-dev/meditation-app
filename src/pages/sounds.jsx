@@ -1,5 +1,5 @@
 import React from 'react'
-import AudioPlayer from '../components/audioPlayer'
+import { AudioPlayer } from '../components/audioPlayer'
 
 
 function Sounds() {
@@ -14,4 +14,4 @@ function Sounds() {
   );
 }
 
-export default Sounds
+export { Sounds }
