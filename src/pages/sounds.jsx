@@ -1,19 +1,17 @@
 import React from 'react'
-import AudioPlayer from '../components/audioPlayer'
-import ReactAudioPlayer from "react-audio-player";
+import { AudioPlayer } from '../components/audioPlayer'
 
 
 function Sounds() {
   return (
-    <ul>
-      <AudioPlayer name="Morning Birds" description="The sounds of morning birds" style=""/>
-      <AudioPlayer name="Heavy Rain" description="A long and realaxing heavy rain" style=""/>
-      <AudioPlayer name="Aura" description="Perfect for a meditation" style=""/>
-      <AudioPlayer name="Rain and thunderstorm" description="A relaxing rain with thunders" style=""/>
-      <AudioPlayer name="Nature" description="Free yourself" style=""/>
-       
-    </ul>
+    <>
+      <AudioPlayer name="Morning Birds" description="The sounds of morning birds" />
+      <AudioPlayer name="Heavy Rain" description="A long and realaxing heavy rain" />
+      <AudioPlayer name="Aura" description="Perfect for a meditation" />
+      <AudioPlayer name="Rain and thunderstorm" description="A relaxing rain with thunders" />
+      <AudioPlayer name="Nature" description="Free yourself" />
+    </>
   );
 }
 
-export default Sounds
+export { Sounds }

@@ -1,11 +1,11 @@
-import Card from "../components/card";
+import { Card } from "../components/card";
 
 import nature from "../assets/nature.jpg";
 import dandelion from "../assets/dandelion.jpg";
 
 function Home() {
   return (
-      <>
+    <>
       <main className="flex flex-wrap items-center justify-center h-screen">
         <Card
           image={nature}
@@ -22,8 +22,8 @@ function Home() {
           linkTo="breath"
         />
       </main>
-      </>
- 
+    </>
+
   );
 }
 
@@ -31,4 +31,4 @@ function Home() {
 // https://xhalr.com/
 // https://www.calm.com/breathe
 
-export default Home;
+export { Home };

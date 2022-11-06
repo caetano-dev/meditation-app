@@ -1,10 +1,13 @@
-import Header from "../components/header"
+import { Header } from "../components/header"
 import { Outlet } from "react-router-dom";
-export default function Root() {
+
+function Root() {
   return (
     <>
-        <Header />
-        <Outlet/>
+      <Header />
+      <Outlet />
     </>
   );
 }
+
+export { Root };
