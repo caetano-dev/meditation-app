@@ -25,8 +25,8 @@ function Sounds() {
         style="bg-gradient-to-br from-neutral-900 to-blue-900 rounded-lg m-4"
       />
       <AudioPlayer
-        name="Nature"
-        description="Mindfulness with nature"
+        name="Waterfall"
+        description="The relaxing sound of a waterfall"
         style="bg-gradient-to-tr from-emerald-900 to-lime-500 rounded-lg m-4"
       />
     </>
