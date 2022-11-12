@@ -9,6 +9,7 @@ import { Root } from "./routes/root";
 import { ErrorPage } from "./pages/error-page";
 import { Home } from "./pages/home";
 import { Sounds } from "./pages/sounds";
+import { Timers } from "./pages/timers";
 
 import "./index.css";
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "sounds",
         element: <Sounds />,
+      },
+      {
+        path: "timers",
+        element: <Timers />,
       },
     ],
   },

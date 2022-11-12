@@ -2,6 +2,7 @@ import { Card } from "../components/card";
 
 import nature from "../assets/nature.jpg";
 import dandelion from "../assets/dandelion.jpg";
+import clock from "../assets/clock.jpg";
 
 function Home() {
   return (
@@ -20,6 +21,13 @@ function Home() {
           title="Deep breath 💨"
           description="Calm yourself by following this relaxing assisted breath."
           linkTo="breath"
+        />
+        <Card
+          image={clock}
+          alt="Image of dandelion"
+          title="Timers ⏳"
+          description="In case you need to track your time for a meditation."
+          linkTo="timers"
         />
       </main>
     </>
