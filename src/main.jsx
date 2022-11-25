@@ -6,10 +6,10 @@ import {
 } from "react-router-dom";
 
 import { Root } from "./routes/root";
-import { ErrorPage } from "./pages/error-page";
-import { Home } from "./pages/home";
-import { Sounds } from "./pages/sounds";
-import { Timers } from "./pages/timers";
+import { ErrorPage } from "./pages/error-page/index";
+import { Home } from "./pages/home/index";
+import { Sounds } from "./pages/sounds/index";
+import { Timers } from "./pages/timers/index";
 
 import "./index.css";
 

@@ -1,8 +1,8 @@
-import { Card } from "../components/card";
+import { Card } from "../../components/card";
 
-import nature from "../assets/nature.jpg";
-import dandelion from "../assets/dandelion.jpg";
-import clock from "../assets/clock.jpg";
+import nature from "../../assets/nature.jpg";
+import dandelion from "../../assets/dandelion.jpg";
+import clock from "../../assets/clock.jpg";
 
 function Home() {
   return (

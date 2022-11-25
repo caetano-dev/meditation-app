@@ -1,5 +1,5 @@
 import React from 'react'
-import { AudioPlayer } from "../components/audioPlayer";
+import { AudioPlayer } from "../../components/audioPlayer";
 
 function Sounds() {
   return (
